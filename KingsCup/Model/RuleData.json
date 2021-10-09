@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Waterfall",
+        "rule": "Starting with the player that drew the card, each player starts drinking at the same time as the person on their left. NO player can stop drinking until the player before them stops."
+    },
+    {
+        "id": 2,
+        "title": "You",
+        "rule": "Pick anyone to take a drink."
+    },
+    {
+        "id": 3,
+        "title": "Me",
+        "rule": "Take a drink! 😜"
+    },
+    {
+        "id": 4,
+        "title": "Floor",
+        "rule": "Last person to touch the floor takes a drink."
+    },
+    {
+        "id": 5,
+        "title": "Make a rule",
+        "rule": "Have fun! Make any rule you wish. That rule will be in effect until a player breaks the rule."
+    },
+    {
+        "id": 6,
+        "title": "Chicks",
+        "rule": "All girls at the table drink."
+    },
+    {
+        "id": 15,
+        "title": "Dicks",
+        "rule": "All guys at the table drink."
+    },
+    {
+        "id": 7,
+        "title": "Heaven",
+        "rule": "Raise your hand above your head and touch the heavens! Last person to do so takes a drink."
+    },
+    {
+        "id": 8,
+        "title": "Mate",
+        "rule": "Pick someone to be your mate. For the rest of the game, they drink when you drink."
+    },
+    {
+        "id": 9,
+        "title": "Rhyme",
+        "rule": "Pick a word, the next player needs to pick a word that rhymes. This continues until a player can't think of a word or reuses a word. That player drinks."
+    },
+    {
+        "id": 10,
+        "title": "Categories",
+        "rule": "Pick a category! Players must go around in a circle and name something that falls within the category. This continues until a player can't think of something. That player drinks."
+    },
+    {
+        "id": 11,
+        "title": "Never Have I Ever",
+        "rule": "Play \"Never Have I ever\" with 5 or 10 fingers, player's choice!"
+    },
+    {
+        "id": 12,
+        "title": "Question Master",
+        "rule": "You're the question master! If you ask a question to a player and they answer, that player drinks. This continues until someone answers the question master or when the next Queen is drawn."
+    },
+    {
+        "id": 13,
+        "title": "Kings Cup",
+        "rule": "Feels bad."
+    },
+]

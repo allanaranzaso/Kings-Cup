@@ -1,0 +1,314 @@
+[
+    {
+        "id": "Spade_Card14",
+        "face": "Ace",
+        "value": 1,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card2",
+        "face": "2",
+        "value": 2,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card3",
+        "face": "3",
+        "value": 3,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card4",
+        "face": "4",
+        "value": 4,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card5",
+        "face": "5",
+        "value": 5,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card6",
+        "face": "6",
+        "value": 6,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card7",
+        "face": "7",
+        "value": 7,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card8",
+        "face": "8",
+        "value": 8,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card9",
+        "face": "9",
+        "value": 9,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card10",
+        "face": "10",
+        "value": 10,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card11",
+        "face": "Jack",
+        "value": 11,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card12",
+        "face": "Queen",
+        "value": 12,
+        "suit": "Spade"
+    },
+    {
+        "id": "Spade_Card13",
+        "face": "King",
+        "value": 13,
+        "suit": "Spade"
+    },
+    {
+        "id": "Heart_Card14",
+        "face": "Ace",
+        "value": 1,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card2",
+        "face": "2",
+        "value": 2,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card3",
+        "face": "3",
+        "value": 3,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card4",
+        "face": "4",
+        "value": 4,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card5",
+        "face": "5",
+        "value": 5,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card6",
+        "face": "6",
+        "value": 6,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card7",
+        "face": "7",
+        "value": 7,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card8",
+        "face": "8",
+        "value": 8,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card9",
+        "face": "9",
+        "value": 9,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card10",
+        "face": "10",
+        "value": 10,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card11",
+        "face": "Jack",
+        "value": 11,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card12",
+        "face": "Queen",
+        "value": 12,
+        "suit": "Heart"
+    },
+    {
+        "id": "Heart_Card13",
+        "face": "King",
+        "value": 13,
+        "suit": "Heart"
+    },
+    {
+        "id": "Diamond_Card14",
+        "face": "Ace",
+        "value": 1,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card2",
+        "face": "2",
+        "value": 2,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card3",
+        "face": "3",
+        "value": 3,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card4",
+        "face": "4",
+        "value": 4,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card5",
+        "face": "5",
+        "value": 5,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card6",
+        "face": "6",
+        "value": 6,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card7",
+        "face": "7",
+        "value": 7,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card8",
+        "face": "8",
+        "value": 8,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card9",
+        "face": "9",
+        "value": 9,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card10",
+        "face": "10",
+        "value": 10,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card11",
+        "face": "Jack",
+        "value": 11,
+        "suit": "Heart"
+    },
+    {
+        "id": "Diamond_Card12",
+        "face": "Queen",
+        "value": 12,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Diamond_Card13",
+        "face": "King",
+        "value": 13,
+        "suit": "Diamond"
+    },
+    {
+        "id": "Club_Card14",
+        "face": "Ace",
+        "value": 1,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card2",
+        "face": "2",
+        "value": 2,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card3",
+        "face": "3",
+        "value": 3,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card4",
+        "face": "4",
+        "value": 4,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card5",
+        "face": "5",
+        "value": 5,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card6",
+        "face": "6",
+        "value": 6,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card7",
+        "face": "7",
+        "value": 7,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card8",
+        "face": "8",
+        "value": 8,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card9",
+        "face": "9",
+        "value": 9,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card10",
+        "face": "10",
+        "value": 10,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card11",
+        "face": "Jack",
+        "value": 11,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card12",
+        "face": "Queen",
+        "value": 12,
+        "suit": "Club"
+    },
+    {
+        "id": "Club_Card13",
+        "face": "King",
+        "value": 13,
+        "suit": "Club"
+    },
+]

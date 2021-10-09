@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2bb-I3-bQp">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="g9H-xE-Zuy">
+            <objects>
+                <viewController id="2bb-I3-bQp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VGT-tX-347">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play a round of King's cup! Get started below by pressing &quot;Let's play&quot;" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuw-yA-8n7">
+                                <rect key="frame" x="51" y="249.33333333333334" width="321.66666666666669" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bwd-3S-zHe">
+                                <rect key="frame" x="133" y="135.33333333333334" width="149" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5QP-Hn-OHY">
+                                <rect key="frame" x="133" y="482" width="157" height="47"/>
+                                <accessibility key="accessibilityConfiguration" identifier="letsPlayBtn"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Let's Play" cornerStyle="large" buttonSize="large"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="GJ8-1M-oKz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hAI-RW-KO3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zuw-yA-8n7" firstAttribute="top" secondItem="Bwd-3S-zHe" secondAttribute="bottom" constant="77" id="3nc-yM-x9M"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="5QP-Hn-OHY" secondAttribute="bottom" constant="360" id="58z-ho-NpE"/>
+                            <constraint firstItem="zuw-yA-8n7" firstAttribute="top" secondItem="VGT-tX-347" secondAttribute="top" constant="249.33333333333337" id="6LW-kc-hd1"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zuw-yA-8n7" secondAttribute="trailing" id="BZW-jc-CCn"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="5QP-Hn-OHY" secondAttribute="trailing" constant="124" id="KKa-4v-WTH"/>
+                            <constraint firstItem="5QP-Hn-OHY" firstAttribute="top" secondItem="zuw-yA-8n7" secondAttribute="bottom" constant="192" id="MYI-Z8-CsW"/>
+                            <constraint firstItem="5QP-Hn-OHY" firstAttribute="leading" relation="lessThanOrEqual" secondItem="hAI-RW-KO3" secondAttribute="leading" constant="133" id="XEd-0Y-wKR"/>
+                            <constraint firstItem="5QP-Hn-OHY" firstAttribute="top" relation="lessThanOrEqual" secondItem="zuw-yA-8n7" secondAttribute="bottom" constant="192" id="Xz8-2p-CZ3"/>
+                            <constraint firstItem="Bwd-3S-zHe" firstAttribute="leading" secondItem="hAI-RW-KO3" secondAttribute="leading" constant="133" id="io1-C1-sox"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="trailing" secondItem="zuw-yA-8n7" secondAttribute="trailing" constant="41.333333333333314" id="pC3-rn-NoP"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zuw-yA-8n7" secondAttribute="trailing" id="r6r-jR-MJj"/>
+                            <constraint firstItem="Bwd-3S-zHe" firstAttribute="top" secondItem="hAI-RW-KO3" secondAttribute="top" constant="91.329999999999998" id="uLO-Re-QNS"/>
+                            <constraint firstItem="hAI-RW-KO3" firstAttribute="trailing" secondItem="Bwd-3S-zHe" secondAttribute="trailing" constant="132" id="ukV-fe-CHq"/>
+                            <constraint firstItem="zuw-yA-8n7" firstAttribute="leading" secondItem="hAI-RW-KO3" secondAttribute="leading" constant="51" id="y8Q-j5-gtZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bkn-2h-WcS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-646.37681159420299" y="113.16964285714285"/>
+        </scene>
+        <!--Draw Card View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="DrawCardViewController" customModule="KingsCup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Draw a Card" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yOo-R9-zWK">
+                                <rect key="frame" x="112" y="90" width="188" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" systemColor="tintColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Heart_Card14" translatesAutoresizingMaskIntoConstraints="NO" id="hLS-TH-zFB">
+                                <rect key="frame" x="32" y="121" width="348" height="463"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="olI-zD-Uho">
+                                <rect key="frame" x="135" y="608.66666666666663" width="144" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Draw" cornerStyle="large"/>
+                                <connections>
+                                    <action selector="drawACardButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qUG-fi-aV8"/>
+                                    <segue destination="kvr-J5-W8J" kind="presentation" identifier="ShowRuleViewSegue" id="vrX-pY-taW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1j-TO-5vN">
+                                <rect key="frame" x="135" y="683.66666666666663" width="144" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Shuffle" cornerStyle="large"/>
+                                <connections>
+                                    <action selector="shuffleCardsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zqG-E1-RBO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hLS-TH-zFB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="77" id="2Wy-4E-4I8"/>
+                            <constraint firstItem="yOo-R9-zWK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="112" id="7Cv-JK-hNQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R1j-TO-5vN" secondAttribute="trailing" constant="135" id="B85-oh-0rY"/>
+                            <constraint firstItem="yOo-R9-zWK" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="D5X-Sd-9XB"/>
+                            <constraint firstItem="hLS-TH-zFB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="J6W-tD-xWk"/>
+                            <constraint firstItem="olI-zD-Uho" firstAttribute="top" relation="greaterThanOrEqual" secondItem="yOo-R9-zWK" secondAttribute="bottom" constant="481.32999999999998" id="K0G-aL-IaF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hLS-TH-zFB" secondAttribute="trailing" constant="34" id="OHk-5h-O3M"/>
+                            <constraint firstItem="R1j-TO-5vN" firstAttribute="top" secondItem="olI-zD-Uho" secondAttribute="bottom" constant="44" id="ZtZ-Jc-ycD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="olI-zD-Uho" secondAttribute="trailing" constant="135" id="bdy-tx-n1g"/>
+                            <constraint firstItem="olI-zD-Uho" firstAttribute="top" secondItem="hLS-TH-zFB" secondAttribute="bottom" constant="24.5" id="eku-mQ-5ah"/>
+                            <constraint firstItem="R1j-TO-5vN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="gdY-Y5-1fs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yOo-R9-zWK" secondAttribute="trailing" constant="114" id="hre-02-V9D"/>
+                            <constraint firstItem="yOo-R9-zWK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="jab-dG-xDM"/>
+                            <constraint firstItem="olI-zD-Uho" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="135" id="lml-c1-ZjQ"/>
+                            <constraint firstItem="olI-zD-Uho" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nsD-si-0pl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="olI-zD-Uho" secondAttribute="trailing" id="tte-3Q-hum"/>
+                            <constraint firstItem="olI-zD-Uho" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uNf-2I-itT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Dyw-eJ-FkT"/>
+                    <connections>
+                        <outlet property="CardDisplayed" destination="hLS-TH-zFB" id="Nx9-5J-49j"/>
+                        <outlet property="cardDisplayed" destination="hLS-TH-zFB" id="3Dq-O2-eIG"/>
+                        <outlet property="drawButton" destination="olI-zD-Uho" id="QfR-6D-6Kv"/>
+                        <outlet property="shuffleButton" destination="R1j-TO-5vN" id="GRq-eA-F9b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+        <!--Rule View Controller-->
+        <scene sceneID="yZ1-6W-vxB">
+            <objects>
+                <viewController id="kvr-J5-W8J" customClass="RuleViewController" customModule="KingsCup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="S5A-YA-xdQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You drew" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UGw-dk-Zbn">
+                                <rect key="frame" x="131" y="68" width="148" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Card Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DXw-Vj-yz4">
+                                <rect key="frame" x="142" y="136" width="126" height="23"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rule:" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gJA-6O-8aw">
+                                <rect key="frame" x="87" y="549" width="240" height="216"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="ZaP-1d-j9g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Heart_Card14" translatesAutoresizingMaskIntoConstraints="NO" id="8fR-an-VnA">
+                                <rect key="frame" x="85" y="98" width="240" height="512.33333333333337"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fs-NA-RLP">
+                                <rect key="frame" x="327" y="20" width="67" height="25"/>
+                                <accessibility key="accessibilityConfiguration" identifier="closeButton"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <imageReference key="image" image="xmark" catalog="system" symbolScale="large" renderingMode="original"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" scale="default"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="endView:" destination="kvr-J5-W8J" eventType="touchUpInside" id="SY9-c0-uEk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QrC-OZ-zpf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gJA-6O-8aw" firstAttribute="leading" relation="lessThanOrEqual" secondItem="QrC-OZ-zpf" secondAttribute="leading" constant="87" id="3RZ-I6-1O3"/>
+                            <constraint firstItem="UGw-dk-Zbn" firstAttribute="centerX" secondItem="DXw-Vj-yz4" secondAttribute="centerX" id="59E-Xq-USe"/>
+                            <constraint firstItem="4fs-NA-RLP" firstAttribute="trailing" secondItem="S5A-YA-xdQ" secondAttribute="trailingMargin" id="E1F-Wl-072"/>
+                            <constraint firstItem="DXw-Vj-yz4" firstAttribute="top" secondItem="UGw-dk-Zbn" secondAttribute="bottom" constant="31" id="LTV-by-kIC"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="8fR-an-VnA" secondAttribute="trailing" constant="89" id="OZn-Y4-QU5"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="gJA-6O-8aw" secondAttribute="trailing" constant="87" id="VSh-F9-7WP"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="UGw-dk-Zbn" secondAttribute="trailing" constant="135" id="WI1-nH-fSs"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="bottom" secondItem="gJA-6O-8aw" secondAttribute="bottom" constant="43" id="X8i-uX-ZXb"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" secondItem="8fR-an-VnA" secondAttribute="trailing" constant="89" id="XWM-ep-nG1"/>
+                            <constraint firstItem="4fs-NA-RLP" firstAttribute="top" secondItem="QrC-OZ-zpf" secondAttribute="top" constant="20" id="ZHE-rD-abJ"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UGw-dk-Zbn" secondAttribute="trailing" constant="135" id="a4t-ec-iMX"/>
+                            <constraint firstItem="gJA-6O-8aw" firstAttribute="centerX" secondItem="S5A-YA-xdQ" secondAttribute="centerX" id="ajp-Yt-erU"/>
+                            <constraint firstItem="UGw-dk-Zbn" firstAttribute="top" secondItem="QrC-OZ-zpf" secondAttribute="top" constant="68" id="crq-5M-KZK"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="bottom" secondItem="8fR-an-VnA" secondAttribute="bottom" constant="197.66666666666674" id="hWK-bb-Xbn"/>
+                            <constraint firstItem="DXw-Vj-yz4" firstAttribute="leading" secondItem="QrC-OZ-zpf" secondAttribute="leading" constant="142" id="iOw-kw-sZK"/>
+                            <constraint firstItem="4fs-NA-RLP" firstAttribute="leading" secondItem="UGw-dk-Zbn" secondAttribute="trailing" constant="48" id="kQL-rw-sga"/>
+                            <constraint firstItem="8fR-an-VnA" firstAttribute="top" secondItem="QrC-OZ-zpf" secondAttribute="top" constant="98" id="nXR-RX-8dr"/>
+                            <constraint firstItem="8fR-an-VnA" firstAttribute="centerX" secondItem="DXw-Vj-yz4" secondAttribute="centerX" id="pxq-F6-HdF"/>
+                            <constraint firstItem="8fR-an-VnA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="QrC-OZ-zpf" secondAttribute="leading" constant="85" id="qKO-X5-ebp"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="trailing" secondItem="gJA-6O-8aw" secondAttribute="trailing" constant="87" id="u5J-RI-Pqb"/>
+                            <constraint firstItem="UGw-dk-Zbn" firstAttribute="leading" relation="lessThanOrEqual" secondItem="QrC-OZ-zpf" secondAttribute="leading" constant="131" id="wQJ-i0-dpH"/>
+                            <constraint firstItem="QrC-OZ-zpf" firstAttribute="bottom" secondItem="4fs-NA-RLP" secondAttribute="bottom" constant="763" id="xYv-Y7-Svi"/>
+                            <constraint firstItem="8fR-an-VnA" firstAttribute="leading" secondItem="QrC-OZ-zpf" secondAttribute="leading" constant="85" id="y8v-eC-k9T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardDisplayed" destination="8fR-an-VnA" id="tXz-3V-LHo"/>
+                        <outlet property="cardDrawnSubText" destination="DXw-Vj-yz4" id="V67-47-3fP"/>
+                        <outlet property="cardRuleTextDescription" destination="gJA-6O-8aw" id="BzL-Oo-KqA"/>
+                        <outlet property="ruleTitle" destination="UGw-dk-Zbn" id="qfB-ry-W4E"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1TS-Vd-pxG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1113.0841121495328" y="113.39092872570195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Heart_Card14" width="348" height="462.33334350585938"/>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
