@@ -31,11 +31,7 @@ class DrawCardViewController: UIViewController {
         return resizedImage
     }
     
-    
-    /// <#Description#>
-    /// - Parameters:
-    ///   - segue: <#segue description#>
-    ///   - sender: <#sender description#>
+    // Function that will prepare data to send to the destination Viewcontroller
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Check if the segue id matches the intended segue
         // Cast the destination as the destination Viewcontroller
@@ -46,8 +42,7 @@ class DrawCardViewController: UIViewController {
         }
     }
     
-    /// <#Description#>
-    /// - Parameter sender: <#sender description#>
+    // TODO: refactor to function
     @IBAction func drawACardButton(_ sender: Any) {
         print("Number of cards left in the deck: \(cards.count)")
 
